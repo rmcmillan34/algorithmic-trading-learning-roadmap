@@ -24,7 +24,7 @@ The purpose of this repository is to provide a self-paced, modular learning temp
 - Cloud & DevOps: Deploying scalable trading algorithms on cloud platforms with CI/CD pipelines.
 - Mathematics: Applying mathematical principles such as probability, statistics, and calculus in financial modeling.
 
-This repository is designed as a learning guide, adaptable for individual use or collaboration, and suitable for any level of experience.
+This repository is designed as a repository of information, and learning guide, adaptable for individual use or collaboration, and suitable for any level of experience.
 
 ## Repository Structure
 Each branch in this repository is dedicated to a specific knowledge area. Branches contain:
