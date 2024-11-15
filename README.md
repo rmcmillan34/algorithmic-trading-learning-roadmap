@@ -24,7 +24,7 @@ The purpose of this repository is to provide a self-paced, modular learning temp
 - Cloud & DevOps: Deploying scalable trading algorithms on cloud platforms with CI/CD pipelines.
 - Mathematics: Applying mathematical principles such as probability, statistics, and calculus in financial modeling.
 
-This repository is designed as a learning guide, adaptable for individual use or collaboration, and suitable for any level of experience.
+This repository is designed as a repository of information, and learning guide, adaptable for individual use or collaboration, and suitable for any level of experience.
 
 ## Repository Structure
 Each branch in this repository is dedicated to a specific knowledge area. Branches contain:
@@ -48,7 +48,7 @@ Collaborate and Share: Share your progress and insights with the community. Open
 - **Software Engineering:** Best practices in coding, software design, and project management.
 - **Cloud & DevOps:** Skills for deploying and managing algorithms in the cloud using CI/CD, Docker, Kubernetes, etc.
 - **Mathematics:** Foundational mathematics skills, covering probability, statistics, calculus, and linear algebra.
-- **General Skills:** Supplementary skills such as technical writing, SQL, Excel, and data visualization, etc.
+- **General Skills:** Supplementary skills such as technical writing, SQL, Excel, and data visualization, data mining etc.
 
 ## Getting Started
 To get started, clone this repository:
