@@ -48,7 +48,7 @@ Collaborate and Share: Share your progress and insights with the community. Open
 - **Software Engineering:** Best practices in coding, software design, and project management.
 - **Cloud & DevOps:** Skills for deploying and managing algorithms in the cloud using CI/CD, Docker, Kubernetes, etc.
 - **Mathematics:** Foundational mathematics skills, covering probability, statistics, calculus, and linear algebra.
-- **General Skills:** Supplementary skills such as technical writing, SQL, Excel, and data visualization, etc.
+- **General Skills:** Supplementary skills such as technical writing, SQL, Excel, and data visualization, data mining etc.
 
 ## Getting Started
 To get started, clone this repository:
