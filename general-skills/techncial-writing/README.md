@@ -9,9 +9,18 @@ Technical writing ensures that complex ideas, projects, and systems are communic
 - Practice creating reusable templates for project documentation.
 
 ## Recommended Resources
+### Courses
 1. [Google's Technical Writing Course](https://developers.google.com/tech-writing) - Free, beginner-friendly course.
 2. [Technical Writing for Developers](https://www.udemy.com/course/technical-writing-for-developers/) - Udemy course focusing on writing for tech professionals.
 3. [Writing Good README.md](https://www.makeareadme.com/) - A simple guide to writing impactful README files.
+4. [Technical Writing Fundamentals](https://handbook.gitlab.com/handbook/product/ux/technical-writing/fundamentals/) - Free course to help contribute to open source projects.
+
+### Books
+1. Software Engineering at Google: Lessons Learned From Programming Over Time - Titus Winters, Tom Manshreck, Hyrum Wright
+2. Docs for Developers: An Engineer's Field Guide to Technical Writing - Jared Bhatti, Zachary Sarah Corleissen, Jen Lambourne, David Nunez, Heidi Waterhouse
+
+### Certifications
+1. [Society for Technical Communication](https://www.stc.org/certification/)
 
 ## Projects and Templates
 - Write a README for a small project, emphasizing clarity and structure.
