@@ -29,6 +29,7 @@ Probability and statistics are the backbone of decision-making in trading. These
 1. **Books**:
    - "Probability and Statistics for Engineers and Scientists" by Sheldon Ross
    - "Mathematical Statistics with Applications" by Wackerly, Mendenhall, and Scheaffer
+   - "The Art of Statistics: Learning from Data" by David Speigelhalter
 2. **Courses**:
    - [Khan Academy: Probability & Statistics](https://www.khanacademy.org/math/statistics-probability)
    - [Coursera: Statistics with Python](https://www.coursera.org/learn/statistics-with-python)
