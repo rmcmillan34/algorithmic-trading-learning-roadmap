@@ -72,6 +72,12 @@ Fork this repository and create a new branch for your contribution, sourcing fro
 Make your changes and submit a pull request with a clear description of the improvements.
 Ensure all added resources are high-quality, open-access, and relevant to algorithmic trading.
 
+## Community Discussions
+Join the conversation! Visit our [Discussions section](https://github.com/your-repo/discussions) to:
+- Ask questions about the syllabus or specific topics.
+- Share your projects and get feedback.
+- Discover new resources and insights.
+
 ## License
 This project is licensed under the MIT License - you are free to use, modify, and distribute this template with attribution. See the LICENSE file for more details.
 
