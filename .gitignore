@@ -1,10 +1,10 @@
 # Ignore all resource files to avoid uploading copyrighted material
-resources/books/*
-resources/courses/*
+**/resources/books/*
+**/resources/courses/*
 
 # Allow placeholders in resource directories
-!resources/books/.gitkeep
-!resources/courses/.gitkeep
+!**/resources/books/.gitkeep
+!**/resources/courses/.gitkeep
 
 # Prevent uploading large files (e.g., downloaded videos, ebooks, datasets)
 *.pdf
@@ -14,6 +14,7 @@ resources/courses/*
 *.avi
 *.mov
 *.zip
+*.srt
 
 # Ignore local IDE and OS files
 .DS_Store
