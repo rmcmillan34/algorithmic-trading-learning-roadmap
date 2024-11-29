@@ -52,35 +52,91 @@ By the end of this module, you will:
 ## Suggested Resources
 
 ### Books
+
 #### Beginner
-1. **"Naked Statistics" by Charles Wheelan**  
-   An accessible and entertaining introduction to statistics.
+1. **"Naked Statistics: Stripping the Dread from the Data" by Charles Wheelan**
+   - A fun and accessible introduction to statistical concepts, aimed at removing the fear of statistics.
+
+2. **"The Cartoon Guide to Statistics" by Larry Gonick and Woollcott Smith**
+   - A lighthearted visual guide to probability and statistics, perfect for beginners.
+
+3. **"Statistics for Absolute Beginners" by Oliver Theobald**
+   - Focused on providing a clear, non-technical explanation of statistics fundamentals.
+
+4. **"Head First Statistics" by Dawn Griffiths**
+   - Uses an interactive and engaging format to teach statistical concepts, ideal for visual and hands-on learners.
+
+---
 
 #### Intermediate
-2. **"Statistics for Business and Economics" by Paul Newbold, William L. Carlson, and Betty Thorne**  
-   Comprehensive coverage of statistical methods with practical applications.
+5. **"Think Stats: Exploratory Data Analysis in Python" by Allen B. Downey**
+   - Combines statistical analysis and programming, focusing on practical applications using Python.
+
+6. **"Introduction to Probability" by Dimitri P. Bertsekas and John N. Tsitsiklis**
+   - A solid introduction to probability theory, with real-world examples and applications.
+
+7. **"Practical Statistics for Data Scientists" by Peter Bruce and Andrew Bruce**
+   - Explains core statistical concepts and tools used in data science and machine learning.
+
+8. **"Statistics: The Art and Science of Learning from Data" by Alan Agresti and Christine Franklin**
+   - A comprehensive resource for statistical inference, regression, and data analysis.
+
+---
 
 #### Advanced
-3. **"Time Series Analysis" by James D. Hamilton**  
-   A detailed guide to time-series modeling and forecasting.
+9. **"Probability and Statistics" by Morris H. DeGroot and Mark J. Schervish**
+   - A rigorous treatment of probability and statistics, commonly used in advanced undergraduate and graduate courses.
+
+10. **"Bayesian Data Analysis" by Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, and Donald B. Rubin**
+   - A deep dive into Bayesian methods for advanced statistical modeling and analysis.
 
 ### Courses
+
 #### Beginner
-1. [Statistics and Probability (Khan Academy)](https://www.khanacademy.org/math/statistics-probability)  
-   Interactive lessons on basic probability and statistics concepts.
+1. **[Statistics and Probability (Khan Academy)](https://www.khanacademy.org/math/statistics-probability)**
+   - Interactive and beginner-friendly lessons on probability, distributions, and basic statistical analysis.
+   - Covers core concepts like mean, median, variance, and probability rules.
+
+2. **[Data Science Math Skills (Coursera, Duke University)](https://www.coursera.org/learn/data-science-math-skills)**
+   - A beginner-level course that introduces the math needed for data science, including basic probability and statistics.
+
+3. **[Introduction to Probability and Data (Coursera, Duke University)](https://www.coursera.org/learn/probability-intro)**
+   - Teaches probability concepts, exploratory data analysis, and statistical inference using R.
+
+4. **[Foundations of Probability in Python (DataCamp)](https://www.datacamp.com/)**
+   - Focuses on basic probability rules and simulations using Python.
+
+---
 
 #### Intermediate
-2. [Statistics with Python (Coursera)](https://www.coursera.org/)  
-   Covers descriptive and inferential statistics using Python.
+5. **[Statistical Inference (Coursera, Johns Hopkins University)](https://www.coursera.org/learn/statistical-inference)**
+   - Covers confidence intervals, hypothesis testing, and p-values.
+   - Part of the Data Science specialization by Johns Hopkins.
+
+6. **[Mathematics for Data Science (edX, Ural Federal University)](https://www.edx.org/course/mathematics-for-data-science-probability-theory)**
+   - Focuses on probability theory and its application to machine learning.
+
+7. **[Probability and Statistics (MIT OpenCourseWare)](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/)**
+   - Covers both theoretical and applied statistics with a focus on distributions, hypothesis testing, and regression.
+
+8. **[Applied Data Science with Python: Statistics and Machine Learning (Coursera, University of Michigan)](https://www.coursera.org/learn/python-statistics-machine-learning)**
+   - Explores applied statistics, probability, and basic machine learning with Python.
+
+---
 
 #### Advanced
-3. [Time Series and Forecasting (edX)](https://www.edx.org/)  
-   Focuses on time-series analysis for forecasting and prediction.
+9. **[Bayesian Statistics: From Concept to Data Analysis (Coursera, University of California Santa Cruz)](https://www.coursera.org/learn/bayesian-statistics)**
+   - A deep dive into Bayesian inference, credible intervals, and MCMC methods.
+
+10. **[Advanced Probability Theory (edX, Ural Federal University)](https://www.edx.org/course/probability-theory-advanced)**
+   - Focuses on advanced topics like stochastic processes and martingales.
+   - Ideal for learners with a solid foundation in probability theory.
+
 
 ### Articles and Tutorials
-1. [Bayesian Statistics in Finance](https://towardsdatascience.com/)  
+1. [Bayesian Statistics in Finance](https://towardsdatascience.com/)
    Explains Bayesian methods and their applications in trading.
-2. [Monte Carlo Simulations in Trading](https://quantinsti.com/)  
+2. [Monte Carlo Simulations in Trading](https://quantinsti.com/)
    An overview of how Monte Carlo methods are used in risk management.
 
 ---
