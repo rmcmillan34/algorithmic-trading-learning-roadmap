@@ -15,6 +15,15 @@
 *.mov
 *.zip
 *.srt
+*.doc
+*.docx
+*.xls
+*.ppt
+*.pptx
+*.csv
+*.jpg
+*.png
+
 
 # Ignore local IDE and OS files
 .DS_Store
