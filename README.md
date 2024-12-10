@@ -21,7 +21,7 @@ The purpose of this repository is to provide a self-paced, modular learning temp
 - Cloud & DevOps: Deploying scalable trading algorithms on cloud platforms with CI/CD pipelines.
 - Data Science: Analyzing, processing, and interpreting large datasets to make data-driven decisions.
 - Finance: Understanding financial markets, instruments, and quantitative finance principles.
-- Mathematics: Applying mathematical principles such as probability, statistics, and calculus in financial modeling.
+- Mathematics: Applying mathematical principles such as probability, statistics, and calculus in financial modelling.
 - General Skills: Technical Writing, Databases, Project management, and more.
 - Software Engineering: Writing clean, efficient code and following best practices for project deployment and version control.
 
@@ -37,8 +37,8 @@ Each branch in this repository is dedicated to a specific knowledge area. Branch
 ## Usage Guide
 Select a Branch: Start with the branch that aligns best with your current knowledge or interest area (e.g., Data Science, Finance).
 Follow the Roadmap: Each branch contains a progressive list of topics. Start from the basics and work through each section, aiming to complete recommended certifications and projects.
-Build Projects: Apply your skills in the projects provided within each branch. Projects are organized by complexity, so you can progress as your knowledge grows.
-Document Your Progress: Use a Note taking application such as Obsidian or a Trello board to keep track of completed courses, certifications, and projects.
+Build Projects: Apply your skills in the projects recommended within each subject. Projects are organized by complexity, so you can progress as your knowledge grows.
+Document Your Progress: Use a note-taking application such as Obsidian or a Trello board to keep track of completed courses, certifications, and projects.
 Collaborate and Share: Share your progress and insights with the community. Open pull requests to suggest new resources or improvements.
 
 ## Branches and Focus Areas
@@ -51,6 +51,7 @@ Collaborate and Share: Share your progress and insights with the community. Open
 - **Cloud & DevOps:** Skills for deploying and managing algorithms in the cloud using CI/CD, Docker, Kubernetes, etc.
     - **Amazon Web Services (AWS)** - [Link to AWS Branch]
     - **Cloud Computing** - [Link to Cloud Computing Branch]
+    - **DevOps** - [Link to DevOps Branch]
     - **Docker** - [Link to Docker Branch]
     - **Google Cloud Platform (GCP)** - [Link to Google Cloud Branch]
     - **Kubernetes** - [Link to Kubernetes Branch]
@@ -111,7 +112,6 @@ cd algorithmic-trading-learning-roadmap
 - Jupyter Notebooks: For data science and machine learning experimentation.
 - Git: For version control and collaboration.
 - Cloud Services: Set up accounts on AWS, GCP, or Azure for cloud projects.
-
 
 ## Contributing
 We welcome contributions to expand and improve the resources in this repository! To contribute:
