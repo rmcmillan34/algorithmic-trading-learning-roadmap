@@ -49,13 +49,14 @@ Collaborate and Share: Share your progress and insights with the community. Open
     - **Reinforcement Learning** - [Link to Reinforcement Learning Branch]
     - **Natural Language Processing** - [Link to NLP Branch]
 - **Cloud & DevOps:** Skills for deploying and managing algorithms in the cloud using CI/CD, Docker, Kubernetes, etc.
-    - **AWS** - [Link to AWS Branch]
-    - **Azure** - [Link to Azure Branch]
-    - **Google Cloud** - [Link to Google Cloud Branch]
+    - **Amazon Web Services (AWS)** - [Link to AWS Branch]
+    - **Cloud Computing** - [Link to Cloud Computing Branch]
     - **Docker** - [Link to Docker Branch]
+    - **Google Cloud Platform (GCP)** - [Link to Google Cloud Branch]
     - **Kubernetes** - [Link to Kubernetes Branch]
     - **GitHub** - [Link to GitHub Branch]
     - **GitHub Actions** - [Link to GitHub Actions Branch]
+    - **Microsoft Azure** - [Link to Azure Branch]
 - **Data Science:** Foundational and advanced topics in data processing, analysis, and visualization.
     - **Data Science** - [Link to Data Science Branch]
     - **Data Analysis** - [Link to Data Analysis Branch]
@@ -65,12 +66,13 @@ Collaborate and Share: Share your progress and insights with the community. Open
     - **Time Series Analysis** - [Link to Time Series Analysis Branch]
 - **Finance:** Core finance principles, quantitative analysis, and financial markets.
     - **Algorithmic Trading** - [Link to Algorithmic Trading Branch]
-    - **Quantitative Finance** - [Link to Quantitative Finance Branch]
-    - **Forex Markets** - [Link to Forex Markets Branch]
     - **Cryptocurrencies** - [Link to Cryptocurrencies Branch]
+    - **Forex Markets** - [Link to Forex Markets Branch]
     - **Options Trading** - [Link to Options Trading Branch]
     - **Portfolio Management** - [Link to Portfolio Management Branch]
+    - **Quantitative Finance** - [Link to Quantitative Finance Branch]
     - **Risk Management** - [Link to Risk Management Branch]
+    - **Technical Analysis** - [Link to Technical Analysis Branch]
 - **Software Engineering:** Best practices in coding, software design, and project management.
     - **Algorithms and Data Structures** - [Link to Algorithms and Data Structures Branch]
     - **C++ Programming** - [Link to C++ Programming Branch]
@@ -88,7 +90,7 @@ Collaborate and Share: Share your progress and insights with the community. Open
     - **Linear Algebra** - [Link to Linear Algebra Branch]
     - **Probability and Statistics** - [Link to Probability and Statistics Branch]
     - **Stochastic Processes** - [Link to Stochastic Processes Branch]
-- **General Skills:** Supplementary skills such as technical writing, SQL, Excel, and data visualization, data mining etc.
+- **General Skills:** Supplementary skills for programming, system administration, and project management.
     - **Database Fundamentals:** - [Link to Databases Branch]
     - **Excel** - [Link to Excel Branch]
     - **Linux** - [Link to Linux Branch]
