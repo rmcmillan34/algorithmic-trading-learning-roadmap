@@ -41,7 +41,15 @@ This section is divided into the following topics, arranged in the recommended o
   - Stochastic calculus for option pricing and risk-neutral valuation.
 - **Applications**: Price movement analysis, trading algorithm optimization, and derivative pricing.
 
-### 4. [Game Theory](game-theory/README.md)
+### 4. [Financial Mathematics](financial-mathematics/README.md)
+- **Prerequisites**: Probability and Statistics, Calculus.
+- **Topics Covered**:
+  - Time value of money and discounted cash flow analysis.
+  - Pricing of derivatives: options, futures, and swaps.
+  - Interest rate models and fixed-income securities valuation.
+- **Applications**: Option pricing, bond valuation, and financial forecasting.
+
+### 5. [Game Theory](game-theory/README.md)
 - **Prerequisites**: Probability and Statistics, familiarity with basic algebra.
 - **Topics Covered**:
   - Nash equilibrium, mixed strategies, and zero-sum games.
@@ -49,7 +57,7 @@ This section is divided into the following topics, arranged in the recommended o
   - Bayesian games and mechanism design.
 - **Applications**: Modeling market interactions, auction-based pricing, and adversarial strategies in trading.
 
-### 5. [Optimization](optimization/README.md)
+### 6. [Optimization](optimization/README.md)
 - **Prerequisites**: Calculus and Linear Algebra.
 - **Topics Covered**:
   - Linear and quadratic programming.
@@ -57,7 +65,7 @@ This section is divided into the following topics, arranged in the recommended o
   - Stochastic and heuristic optimization methods.
 - **Applications**: Portfolio optimization, hyperparameter tuning, and trading strategy refinement.
 
-### 6. [Stochastic Processes](stochastic-processes/README.md)
+### 7. [Stochastic Processes](stochastic-processes/README.md)
 - **Prerequisites**: Probability and Statistics, Calculus.
 - **Topics Covered**:
   - Random walks, Brownian motion, and stochastic differential equations (SDEs).
@@ -65,7 +73,7 @@ This section is divided into the following topics, arranged in the recommended o
   - Advanced models like the Heston and Vasicek models.
 - **Applications**: Stock price modeling, risk management, and derivative pricing.
 
-### 7. [Information Theory](information-theory/README.md)
+### 8. [Information Theory](information-theory/README.md)
 - **Prerequisites**: Probability and Statistics.
 - **Topics Covered**:
   - Entropy, mutual information, and data compression.
@@ -83,13 +91,15 @@ This section is divided into the following topics, arranged in the recommended o
    - Learn how to manipulate data structures like matrices and vectors for optimization.
 3. **Study Calculus**:
    - Explore differentiation and integration for modeling and optimization.
-4. **Proceed to Game Theory**:
+4. **Proceed to Financial Mathematics**:
+   - Apply mathematical models directly to financial instruments.
+5. **Learn Game Theory**:
    - Understand strategic interactions and competitive dynamics in financial markets.
-5. **Learn Optimization**:
+6. **Master Optimization**:
    - Apply calculus and linear algebra concepts to solve real-world trading problems.
-6. **Master Stochastic Processes**:
+7. **Explore Stochastic Processes**:
    - Understand how randomness affects financial markets and model uncertain systems.
-7. **Finish with Information Theory**:
+8. **Finish with Information Theory**:
    - Extract insights from noisy data and optimize trading strategies using information-theoretic methods.
 
 ---
@@ -119,7 +129,7 @@ This section is divided into the following topics, arranged in the recommended o
 3. **Market Forecasting**:
    - Leverage stochastic processes and time-series models to predict price movements.
 4. **Trading Algorithm Development**:
-   - Use calculus, optimization, and information theory to optimize algorithmic strategies.
+   - Use calculus, optimization, and financial mathematics to optimize algorithmic strategies.
 
 ---
 
