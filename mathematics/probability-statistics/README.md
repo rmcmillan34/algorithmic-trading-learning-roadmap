@@ -37,9 +37,6 @@ By the end of this module, you will:
   - [ ] Multiple regression.
 
 ### Advanced
-- [ ] Time-series analysis:
-  - [ ] Stationarity and autocorrelation.
-  - [ ] ARIMA and GARCH models for financial forecasting.
 - [ ] Bayesian statistics:
   - [ ] Bayesian inference and credible intervals.
   - [ ] Markov Chain Monte Carlo (MCMC) methods.
