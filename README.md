@@ -2,7 +2,7 @@
 Welcome to the Algorithmic Trading Learning Roadmap repository! This repository provides a structured, comprehensive roadmap for developing expertise in the core skills needed to become a proficient algorithmic trader. It includes resources, certifications, and project ideas across various fields that intersect in the world of algorithmic trading, such as AI, data science, finance, software engineering, cloud computing, and more.
 
 ## Repository Overview
-This repository is organized into branches, each focusing on a key area of knowledge essential for algorithmic trading. Each branch contains curated resources, recommended certifications, project ideas, and guidelines to help build foundational and advanced skills in that area.
+This repository is organized in a hierarchical folder structure, each top-level folder focusing on a key area of knowledge essential for algorithmic trading. Each top-level folder contains topics and Markdown files listing curated resources, recommended certifications, project ideas, and guidelines to help build foundational and advanced skills in that topic.
 
 ## Table of Contents
 - [Purpose](#purpose)
@@ -14,7 +14,7 @@ This repository is organized into branches, each focusing on a key area of knowl
 - [License](#license)
 
 ## Purpose
-The purpose of this repository is to provide a self-paced, modular learning template to help aspiring algorithmic traders build proficiency in:
+After deciding that I wanted to undertake the enormous task of becoming an algorithmic trader, I noticed there was a lot of information across many domains that I would need to master. I learn best when I have a list of things that I need to learn. The purpose of this repository is to provide my self-paced, modular curated learning template and resources to help other aspiring algorithmic traders build proficiency in:
 
 - Artificial Intelligence: Applying machine learning techniques to create predictive models for trading.
 - Algorithmic Trading: Developing, testing, and optimizing trading algorithms.
@@ -25,19 +25,19 @@ The purpose of this repository is to provide a self-paced, modular learning temp
 - General Skills: Technical Writing, Databases, Project management, and more.
 - Software Engineering: Writing clean, efficient code and following best practices for project deployment and version control.
 
-This repository is designed as a repository of information, and learning guide, adaptable for individual use or collaboration, and suitable for any level of experience.
+This repository is designed to be used as a local repository, to organise resources, and learning materials, adaptable for individual use or collaboration, and suitable for any level of experience.
 
 ## Repository Structure
-Each branch in this repository is dedicated to a specific knowledge area. Branches contain:
+Each branch in this repository is dedicated to a specific knowledge area. Branches contain references to:
 
 - Curated Resources: Articles, tutorials, course and book recommendations.
 - Certifications: Suggested industry-recognized certifications to validate your knowledge.
 - Projects: Practical project suggestions to apply concepts and build a portfolio.
 
 ## Usage Guide
-Select a Branch: Start with the branch that aligns best with your current knowledge or interest area (e.g., Data Science, Finance).
+Select a Topic: Start with the topic area that aligns best with your current lack of knowledge or an interest area (e.g., Data Science, Finance).
 Follow the Roadmap: Each branch contains a progressive list of topics. Start from the basics and work through each section, aiming to complete recommended certifications and projects.
-Build Projects: Apply your skills in the projects recommended within each subject. Projects are organized by complexity, so you can progress as your knowledge grows.
+Build Projects: Apply your newly gained skills to projects recommended within each subject. 
 Document Your Progress: Use a note-taking application such as Obsidian or a Trello board to keep track of completed courses, certifications, and projects.
 Collaborate and Share: Share your progress and insights with the community. Open pull requests to suggest new resources or improvements.
 
@@ -116,11 +116,34 @@ cd algorithmic-trading-learning-roadmap
 ## Contributing
 We welcome contributions to expand and improve the resources in this repository! To contribute:
 
-Fork this repository and create a new branch for your contribution, sourcing from the appropriate category branch.
-Make your changes and submit a pull request with a clear description of the improvements.
-Ensure all added resources are high-quality, open-access, and relevant to algorithmic trading.
+1. **Fork this Repository**:
+   - Create a new branch for your contribution, sourcing from the appropriate category branch.
+
+2. **Make Your Changes**:
+   - Add or improve resources and ensure they are high-quality, open-access, and relevant to algorithmic trading.
+
+3. **Submit a Pull Request**:
+   - Provide a clear description of your changes and their impact on the project.
+
+---
+
+### Collaboration Tools/Resources
+
+- **[Trello Board - Explore the Roadmap and Collaborate](https://trello.com/invite/b/67372c4fb17f8dd7507357b5/ATTI3cd8c77aeab026b60b418559e8d666406687E3C7/algorithmic-trading-education)**  
+   The Trello board outlines the learning roadmap and tasks for contributors. Feel free to join the board to view tasks, contribute to ongoing discussions, and track project progress.
+
+- **[Project Wiki - Detailed Documentation and Learning Materials](https://github.com/your-repo-link/wiki)**  
+   Our Wiki is a comprehensive resource for contributors and learners. It includes detailed documentation, guides, and additional resources to help you navigate the project.
+
+- **[Discussion Board - Join the Conversation](https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap/discussions)**  
+   Use the GitHub Discussions page to share ideas, ask questions, or propose new directions for the project.
+
+- **[GitHub Issues - Report Technical Problems](https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap/issues)**  
+   Found a bug or have a technical issue? Use the GitHub Issues page to report it, and we'll address it promptly.
+
 
 ## Community Discussions
+I'd like to make this a community project and learn from everyone! 
 Join the conversation! Visit our [Discussions section](https://https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap/discussions) to:
 - Ask questions about the syllabus or specific topics.
 - Share your projects and get feedback.
