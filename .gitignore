@@ -1,6 +1,7 @@
 # Ignore all resource files to avoid uploading copyrighted material
 **/resources/books/*
 **/resources/courses/*
+**/projects/*
 
 # Allow placeholders in resource directories
 !**/resources/books/.gitkeep
