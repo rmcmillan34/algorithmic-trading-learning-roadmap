@@ -101,3 +101,4 @@ After completing this topic, move on to:
 ---
 
 This module provides the tools and techniques to apply signal processing effectively in algorithmic trading. Explore the textbooks, courses, and projects to gain expertise in this domain!
+true
