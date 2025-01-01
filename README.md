@@ -99,6 +99,8 @@ Collaborate and Share: Share your progress and insights with the community. Open
     - **SQL** - [Link to SQL Branch]
     - **Technical Writing** - [Link to Technical Writing Branch]
 
+![roadmap.png](assets/roadmap.png)
+
 ## Getting Started
 To get started collating your own projects and resources, clone this repository:
 
