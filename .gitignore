@@ -3,9 +3,6 @@
 **/resources/courses/*
 **/projects/*
 
-# Allow assets for project
-!/assets/img/*
-!/assets/anki/*
 
 # Allow placeholders in resource directories
 !**/resources/books/.gitkeep
@@ -29,6 +26,9 @@
 *.jpg
 *.png
 
+# Allow assets for project
+!/assets/img/*
+!/assets/anki/*
 
 # Ignore local IDE and OS files
 .DS_Store
