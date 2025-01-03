@@ -25,6 +25,7 @@
 *.csv
 *.jpg
 *.png
+*.wav
 
 # Allow assets for project
 !/assets/img/*
