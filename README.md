@@ -27,12 +27,93 @@ After deciding that I wanted to undertake the enormous task of becoming an algor
 
 This repository is designed to be used as a local repository, to organise resources, and learning materials, adaptable for individual use or collaboration, and suitable for any level of experience.
 
-## Repository Structure
-Each branch in this repository is dedicated to a specific knowledge area. Branches contain references to:
 
-- Curated Resources: Articles, tutorials, course and book recommendations.
-- Certifications: Suggested industry-recognized certifications to validate your knowledge.
-- Projects: Practical project suggestions to apply concepts and build a portfolio.
+## Repository Structure
+
+The design of this repository is modular and hierarchical, allowing for easy navigation and organization of resources. The philosophy behind this structure is to create a clear and logical flow of information, making it easier for learners to follow their own learning paths and a place to store and organise content. Each domain is broken down into subdomains, with each subdomain containing specific topics and resources. The main components include:
+
+- **Assets**: Storage for compelte projects, anki flashcards, obsidian vaults for downloading and storing your own resources.
+- **Domains**: Each domain represents a key area of knowledge, such as "Artificial Intelligence" or "Finance."
+- **Subject**: Each subfolder within a domain contains a specific topic, such as "Machine Learning" or "Deep Learning." for Artificial Intelligence.
+- **Markdown files**: Each domain and subject contains a README.md file outlining the topic and a list of resources, including books, online courses, and project ideas.
+- **Resources**: Each Subject contains a folders for the storage of your own resources, including:
+  - **Books**: Recommended textbooks and reference materials.
+  - **Online Courses**: Links to online courses and certifications.
+  - **Projects**: Ideas for practical projects to apply the knowledge gained.
+
+```bash
+.
+├── \assets                # Assets for the project
+│   ├── \anki              # Anki flashcards
+│   └── \img               # Images for the project README's
+└── roadmap                # Main directory for the roadmap domains and focus areas
+    ├── artificial-intelligence
+    │   ├── artificial-intelligence-foundations
+    │   ├── deep-neural-networks
+    │   ├── machine-learning
+    │   ├── natural-language-processing
+    │   ├── optimisation-techniques
+    │   ├── probabilistic-models
+    │   ├── reinforcement-learning
+    │   └── signal-processing
+    ├── cloud-devops
+    │   ├── amazon-web-services
+    │   ├── cloud
+    │   ├── devops
+    │   ├── docker
+    │   ├── git
+    │   ├── github-actions
+    │   ├── google-cloud-platform
+    │   ├── kubernetes
+    │   └── microsoft-azure
+    ├── data-science
+    │   ├── data-analytics
+    │   ├── data-science
+    │   ├── data-visualisation
+    │   ├── data-wrangling
+    │   ├── r-language
+    │   ├── research-methods
+    │   ├── statistical-data-analysis
+    │   └── time-series-analysis
+    ├── finance
+    │   ├── algorithmic-trading
+    │   ├── cryptocurrency
+    │   ├── fintech
+    │   ├── forex
+    │   ├── high-frequency-trading
+    │   ├── options
+    │   ├── portfolio-optimisation
+    │   ├── quantitative-finance
+    │   ├── risk-management
+    │   └── technical-analysis
+    ├── general-skills
+    │   ├── database-fundamentals
+    │   ├── excel
+    │   ├── linux
+    │   ├── networking
+    │   ├── project-management
+    │   ├── sql
+    │   └── techncial-writing
+    ├── mathematics
+    │   ├── calculus
+    │   ├── financial-mathematics
+    │   ├── game-theory
+    │   ├── information-theory
+    │   ├── linear-algebra
+    │   ├── mathematics-foundations
+    │   ├── optimisation
+    │   ├── principal-component-analysis
+    │   ├── probability-statistics
+    │   └── stochastic-processes
+    └── software-engineering
+        ├── algorithms
+        ├── c++
+        ├── concurrency
+        ├── network-programming
+        ├── python
+        ├── software-architecture
+        └── software-testing
+```
 
 ## Usage Guide
 Select a Topic: Start with the topic area that aligns best with your current lack of knowledge or an interest area (e.g., Data Science, Finance).
