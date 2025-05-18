@@ -117,10 +117,10 @@ The design of this repository is modular and hierarchical, allowing for easy nav
 
 ## Usage Guide
 Select a Topic: Start with the topic area that aligns best with your current lack of knowledge or an interest area (e.g., Data Science, Finance).
-Follow the Roadmap: Each branch contains a progressive list of topics. Start from the basics and work through each section, aiming to complete recommended certifications and projects.
-Build Projects: Apply your newly gained skills to projects recommended within each subject.
-Document Your Progress: Use a note-taking application such as Obsidian or a Trello board to keep track of completed courses, certifications, and projects.
-Collaborate and Share: Share your progress and insights with the community. Open pull requests to suggest new resources or improvements.
+- **Follow the Roadmap**: Each branch contains a progressive list of topics. Start from the basics and work through each section, aiming to complete recommended certifications and projects.
+- **Build Projects**: Apply your newly gained skills to projects recommended within each subject.
+- **Document Your Progress**: Use a note-taking application such as Obsidian or a Trello board to keep track of completed courses, certifications, and projects.
+- **Collaborate and Share**: Share your progress and insights with this community. Open pull requests to suggest new resources or improvements.
 
 ## Domains and Focus Areas
 - ### **Roadmap:** How I have structured the below topics to suit my learning style - [Link to Roadmap](roadmap/README.md)
