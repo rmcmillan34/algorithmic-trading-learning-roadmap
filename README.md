@@ -277,7 +277,7 @@ We welcome contributions to expand and improve the resources in this repository!
 - **[Trello Board - Explore the Roadmap and Collaborate](https://trello.com/invite/b/67372c4fb17f8dd7507357b5/ATTI3cd8c77aeab026b60b418559e8d666406687E3C7/algorithmic-trading-education)**
    The Trello board outlines the learning roadmap and tasks for contributors. Feel free to join the board to view tasks, contribute to ongoing discussions, and track project progress.
 
-- **[Project Wiki - Detailed Documentation and Learning Materials](https://github.com/your-repo-link/wiki)**
+- **[Project Wiki - Detailed Documentation and Learning Materials](https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap/wiki)**
    Our Wiki is a comprehensive resource for contributors and learners. It includes detailed documentation, guides, and additional resources to help you navigate the project.
 
 - **[Discussion Board - Join the Conversation](https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap/discussions)**
@@ -289,7 +289,7 @@ We welcome contributions to expand and improve the resources in this repository!
 
 ## Community Discussions
 I'd like to make this a community project and learn from everyone!
-Join the conversation! Visit our [Discussions section](https://https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap/discussions) to:
+Join the conversation! Visit our [Discussions section](https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap/discussions) to:
 - Ask questions about the syllabus or specific topics.
 - Share your projects and get feedback.
 - Discover new resources and insights.
