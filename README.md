@@ -38,6 +38,26 @@ After deciding that I wanted to undertake the enormous task of becoming an algor
 
 This repository is designed to be used as a local repository, to organise resources, and learning materials, adaptable for individual use or collaboration, and suitable for any level of experience.
 
+## Why Build This Roadmap?
+
+After 15 years as a technician, and completing postgraduate studies in cybersecurity, I realised that I am ready to retire, and since I’ve yet to hit the lottery, **algorithmic trading felt like the next best shot** at financial independence... with the added benefit of needing less luck and more skill.
+
+But making it in this space requires more than just enthusiasm. It demands fluency across multiple disciplines:
+
+- Software engineering and version control  
+- Mathematics and statistics  
+- Data science and machine learning  
+- Financial markets and trading strategies  
+- Cloud infrastructure and automation  
+
+After accumulating **hundreds of gigabytes of books, courses and materials**, I knew that I needed a system to avoid drowning in content. I also wanted to find the **best possible resources** without wasting time jumping between outdated blog posts, half-finished courses, and noisy forums — so I’ve gathered them all in one place. With community input and regular updates, **we can all skip the fluff and focus on learning what actually matters**.
+
+And this is what I came up with, a **modular learning system** I’m building to keep myself accountable, organized, and always moving forward.
+
+If you’re also chasing financial freedom through algorithmic trading — and want a roadmap that respects both depth and structure — you’re in good company.
+
+👉 **Feel free to star the repo, share it with others, or open a pull request to improve any section — let’s build this together.**
+
 
 ## Repository Structure
 
@@ -153,14 +173,24 @@ The design of this repository is modular and hierarchical, allowing for easy nav
 
 ## Usage Guide
 Select a Topic: Start with the topic area that aligns best with your current lack of knowledge or an interest area (e.g., Data Science, Finance).
-Follow the Roadmap: Each branch contains a progressive list of topics. Start from the basics and work through each section, aiming to complete recommended certifications and projects.
+Follow the Roadmap: Each domain `README` contains a progressive list of topics, some mandatory, some nice to know and others for further learning. Start with the basics and work through each section, aiming to complete recommended certifications and projects.
 Build Projects: Apply your newly gained skills to projects recommended within each subject.
 Document Your Progress: Use a note-taking application such as Obsidian or a Trello board to keep track of completed courses, certifications, and projects.
 Collaborate and Share: Share your progress and insights with the community. Open pull requests to suggest new resources or improvements.
 
+## Getting Started
+To get started collating your own projects and resources, clone this repository:
+
+```bash
+git clone https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap.git
+cd algorithmic-trading-learning-roadmap
+```
+and then peruse the `README.md` files in each domain and subject folder to find resources, recommended courses, and project ideas.
+
 ## Domains and Focus Areas
-- ### **Roadmap:** How I have structured the below topics to suit my learning style - [Link to Roadmap](roadmap/README.md)
-- **Artificial IntelligenceI:** Resources on machine learning, deep learning, and reinforcement learning, specifically for algorithmic trading applications.
+Navigate through the following domains and focus areas to find resources and topics that interest you:
+
+- **Artificial Intelligence:** Resources on machine learning, deep learning, and reinforcement learning, specifically for algorithmic trading applications.
     - **Artificial Intelligence** - [Link to Artificial Intelligence Topic](roadmap/artificial-intelligence/README.md)
     - **Machine Learning** - [Link to Machine Learning Topic](roadmap/artificial-intelligence/machine-learning/README.md)
     - **Deep Learning** - [Link to Deep Learning](roadmap/artificial-intelligence/deep-neural-networks/README.md)
@@ -242,14 +272,6 @@ Collaborate and Share: Share your progress and insights with the community. Open
     - **System Design** - [Link to System Design Topic](roadmap/software-engineering/system-design/README.md)
     - **Version Control** - [Link to Version Control Topic](roadmap/software-engineering/version-control/README.md)
     - **Web Development** - [Link to Web Development Topic](roadmap/software-engineering/web-development/README.md)
-
-## Getting Started
-To get started collating your own projects and resources, clone this repository:
-
-```bash
-git clone https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap.git
-cd algorithmic-trading-learning-roadmap
-```
 
 ### Recommended Tools
 - `Python`: Primary language for algorithmic trading projects.
