@@ -57,7 +57,7 @@ This section is divided into the following topics, arranged in the recommended o
   - Bayesian games and mechanism design.
 - **Applications**: Modeling market interactions, auction-based pricing, and adversarial strategies in trading.
 
-### 6. [Optimization](optimization/README.md)
+### 6. [Optimization](optimisation/README.md)
 - **Prerequisites**: Calculus and Linear Algebra.
 - **Topics Covered**:
   - Linear and quadratic programming.

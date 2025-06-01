@@ -14,49 +14,6 @@ By completing this module, you will:
 
 ---
 
-## Syllabus Overview
-
-This section is divided into the following topics, arranged in the recommended order of study:
-
-### 1. [Introduction to R Programming](r-introduction/README.md)
-- **Prerequisites**: Familiarity with basic programming concepts.
-- **Topics Covered**:
-  - R environment setup and IDEs (RStudio).
-  - Basic syntax, data types, and structures.
-  - Control flow, functions, and error handling.
-- **Applications**: Setting up your R environment for financial data analysis.
-
-### 2. [Data Manipulation in R](data-manipulation/README.md)
-- **Prerequisites**: Basic understanding of R syntax.
-- **Topics Covered**:
-  - Data frames, tibbles, and lists.
-  - Data wrangling with `dplyr` and `tidyr`.
-  - Reading and writing data in various formats.
-- **Applications**: Preparing financial datasets for analysis.
-
-### 3. [Visualization in R](visualization/README.md)
-- **Prerequisites**: Data Manipulation in R.
-- **Topics Covered**:
-  - Plotting with `ggplot2`.
-  - Creating interactive visualizations with `plotly` and `shiny`.
-  - Advanced visualizations: heatmaps, candlestick charts, and time series plots.
-- **Applications**: Visualizing financial data and trading performance.
-
-### 4. [Financial Analysis with R](financial-analysis/README.md)
-- **Prerequisites**: Data Manipulation in R.
-- **Topics Covered**:
-  - Time series analysis with `xts` and `zoo`.
-  - Risk metrics and portfolio optimization with `PerformanceAnalytics` and `PortfolioAnalytics`.
-  - Pricing derivatives with `quantmod` and `RQuantLib`.
-- **Applications**: Backtesting strategies and evaluating portfolio performance.
-
-### 5. [Machine Learning in R](machine-learning/README.md)
-- **Prerequisites**: Financial Analysis with R.
-- **Topics Covered**:
-  - Supervised learning with `caret` and `mlr`.
-  - Time series forecasting with `forecast` and `prophet`.
-  - Deep learning with `tensorflow` and `keras` in R.
-- **Applications**: Building predictive models for market forecasting.
 
 ---
 

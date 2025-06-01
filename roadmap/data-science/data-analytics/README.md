@@ -75,7 +75,7 @@ By completing this module, you will:
    A beginner-friendly introduction to data analysis.
 
 #### Intermediate
-2. [Google’s Advanced Data Analysis](resources/courses/google-advanced-data-analysis.md)
+2. [Google’s Advanced Data Analysis](https://www.coursera.org/professional-certificates/google-advanced-data-analytics)
    Covers advanced data manipulation and visualization techniques.
 
 #### Advanced
