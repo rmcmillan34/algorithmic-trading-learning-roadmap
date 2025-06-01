@@ -140,7 +140,7 @@ The design of this repository is modular and hierarchical, allowing for easy nav
     │   ├── security
     │   ├── soft-skills
     │   ├── sql
-    │   └── techncial-writing
+    │   └── technical-writing
     ├── mathematics
     │   ├── calculus
     │   ├── discrete-mathematics
@@ -250,6 +250,7 @@ Navigate through the following domains and focus areas to find resources and top
     - **Technical Writing** - [Link to Technical Writing Topic](roadmap/general-skills/technical-writing/README.md)
 - **Mathematics:** Foundational mathematics skills, covering probability, statistics, calculus, and linear algebra.
     - **Calculus** - [Link to Calculus Topic](roadmap/mathematics/calculus/README.md)
+    - **Discrete Mathematics** - [Link to Discrete Mathematics Topic](roadmap/mathematics/discrete-mathematics/README.md)
     - **Financial Mathematics** - [Link to Financial Mathematics Topic](roadmap/mathematics/financial-mathematics/README.md)
     - **Games Theory** - [Link to Games Theory Topic](roadmap/mathematics/game-theory/README.md)
     - **Information Theory** - [Link to Information Theory Topic](roadmap/mathematics/information-theory/README.md)
