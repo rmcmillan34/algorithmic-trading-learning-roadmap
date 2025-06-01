@@ -1,4 +1,12 @@
 # Algorithmic Trading Learning Roadmap
+>Self paced roadmap to building algorithmic trading software and systems powered by AI and Data Science.
+
+![MIT License](https://img.shields.io/github/license/rmcmillan34/algorithmic-trading-learning-roadmap)
+![Repo Size](https://img.shields.io/github/repo-size/rmcmillan34/algorithmic-trading-learning-roadmap)
+![Last Commit](https://img.shields.io/github/last-commit/rmcmillan34/algorithmic-trading-learning-roadmap)
+![Issues](https://img.shields.io/github/issues/rmcmillan34/algorithmic-trading-learning-roadmap)
+![Stars](https://img.shields.io/github/stars/rmcmillan34/algorithmic-trading-learning-roadmap?style=social)
+
 Welcome to the Algorithmic Trading Learning Roadmap repository! This repository provides a structured, comprehensive roadmap for developing expertise in the core skills needed to become a proficient algorithmic trader. It includes resources, certifications, and project ideas across various fields that intersect in the world of algorithmic trading, such as AI, data science, finance, software engineering, cloud computing, and more.
 
 ## Repository Overview
@@ -19,6 +27,7 @@ After deciding that I wanted to undertake the enormous task of becoming an algor
 - Artificial Intelligence: Applying machine learning techniques to create predictive models for trading.
 - Algorithmic Trading: Developing, testing, and optimizing trading algorithms.
 - Cloud & DevOps: Deploying scalable trading algorithms on cloud platforms with CI/CD pipelines.
+- Computer Science: Understanding algorithms, data structures, and programming languages to build efficient trading systems.
 - Data Science: Analyzing, processing, and interpreting large datasets to make data-driven decisions.
 - Finance: Understanding financial markets, instruments, and quantitative finance principles.
 - Mathematics: Applying mathematical principles such as probability, statistics, and calculus in financial modelling.
@@ -66,6 +75,20 @@ The design of this repository is modular and hierarchical, allowing for easy nav
     │   ├── google-cloud-platform
     │   ├── kubernetes
     │   └── microsoft-azure
+    ├── computer-science
+    │   ├── compilers
+    │   ├── computer-architecture
+    │   ├── data-structures
+    │   ├── operating-systems
+    │   ├── theory
+    │   ├── algorithms
+    │   ├── assembly-language
+    │   ├── c++
+    │   ├── concurrency
+    │   ├── network-programming
+    │   ├── object-oriented-programming
+    │   ├── programming
+    │   └── python
     ├── data-science
     │   ├── data-analytics
     │   ├── data-science
@@ -78,6 +101,7 @@ The design of this repository is modular and hierarchical, allowing for easy nav
     ├── finance
     │   ├── algorithmic-trading
     │   ├── cryptocurrency
+    │   ├── econometrics
     │   ├── fintech
     │   ├── forex
     │   ├── high-frequency-trading
@@ -91,28 +115,38 @@ The design of this repository is modular and hierarchical, allowing for easy nav
     │   ├── excel
     │   ├── linux
     │   ├── networking
-    │   ├── project-management
+    │   ├── security
+    │   ├── soft-skills
     │   ├── sql
     │   └── techncial-writing
     ├── mathematics
     │   ├── calculus
+    │   ├── discrete-mathematics
     │   ├── financial-mathematics
     │   ├── game-theory
     │   ├── information-theory
     │   ├── linear-algebra
     │   ├── mathematics-foundations
     │   ├── optimisation
+    │   ├── ordinary-differential-equations
+    │   ├── partial-differential-equations
     │   ├── principal-component-analysis
     │   ├── probability-statistics
     │   └── stochastic-processes
     └── software-engineering
-        ├── algorithms
-        ├── c++
-        ├── concurrency
-        ├── network-programming
-        ├── python
+        ├── clean-code
+        ├── design-patterns
+        ├── documentation
+        ├── legacy-code
+        ├── project-management
+        ├── refactoring
+        ├── requirements-engineering
         ├── software-architecture
-        └── software-testing
+        ├── software-engineering
+        ├── software-testing
+        ├── system-design
+        ├── version-control
+        └── web-development
 ```
 
 ## Usage Guide
@@ -140,6 +174,19 @@ Collaborate and Share: Share your progress and insights with the community. Open
     - **Google Cloud Platform (GCP)** - [Link to Google Cloud Topic](roadmap/cloud-devops/google-cloud-platform/README.md)
     - **Kubernetes** - [Link to Kubernetes Topic](roadmap/cloud-devops/kubernetes/README.md)
     - **Microsoft Azure** - [Link to Azure Topic](roadmap/cloud-devops/microsoft-azure/README.md)
+- **Computer Science:** Fundamental concepts in algorithms, data structures, and programming languages.
+    - **Compilers** - [Link to Compilers Topic](roadmap/computer-science/compilers/README.md)
+    - **Computer Architecture** - [Link to Computer Architecture Topic](roadmap/computer-science/computer-architecture/README.md)
+    - **Data Structures** - [Link to Data Structures Topic](roadmap/computer-science/data-structures/README.md)
+    - **Operating Systems** - [Link to Operating Systems Topic](roadmap/computer-science/operating-systems/README.md)
+    - **Theory of Computation** - [Link to Theory of Computation Topic](roadmap/computer-science/theory/README.md)
+    - **Algorithms** - [Link to Algorithms Topic](roadmap/computer-science/algorithms/README.md)
+    - **Assembly Language** - [Link to Assembly Language Topic](roadmap/computer-science/assembly-language/README.md)
+    - **C++ Programming** - [Link to C++ Programming Topic](roadmap/computer-science/c++/README.md)
+    - **Concurrency** - [Link to Concurrency Topic](roadmap/computer-science/concurrency/README.md)
+    - **Network Programming** - [Link to Network Programming Topic](roadmap/computer-science/network-programming/README.md)
+    - **Object-Oriented Programming (OOP)** - [Link to OOP Topic](roadmap/computer-science/object-oriented-programming/README.md)
+    - **Python Programming** - [Link to Python Programming Topic](roadmap/computer-science/python/README.md)
 - **Data Science:** Foundational and advanced topics in data processing, analysis, and visualization.
     - **Data Science** - [Link to Data Science Topic](roadmap/data-science/data-science/README.md)
     - **Data Analytics** - [Link to Data Analytics Topic](roadmap/data-science/data-analytics/README.md)
@@ -165,7 +212,8 @@ Collaborate and Share: Share your progress and insights with the community. Open
     - **Excel** - [Link to Excel Topic](roadmap/general-skills/excel/README.md)
     - **Linux** - [Link to Linux Topic](roadmap/general-skills/linux/README.md)
     - **Networking** - [Link to Networking Topic](roadmap/general-skills/networking/README.md)
-    - **Project Management** - [Link to Project Management Topic](roadmap/general-skills/project-management/README.md)
+    - **Security** - [Link to Security Topic](roadmap/general-skills/security/README.md)
+    - **Soft Skills** - [Link to Soft Skills Topic](roadmap/general-skills/soft-skills/README.md)
     - **SQL** - [Link to SQL Topic](roadmap/general-skills/sql/README.md)
     - **Technical Writing** - [Link to Technical Writing Topic](roadmap/general-skills/technical-writing/README.md)
 - **Mathematics:** Foundational mathematics skills, covering probability, statistics, calculus, and linear algebra.
@@ -180,18 +228,17 @@ Collaborate and Share: Share your progress and insights with the community. Open
     - **Probability and Statistics** - [Link to Probability and Statistics Topic](roadmap/mathematics/probability-statistics/README.md)
     - **Stochastic Processes** - [Link to Stochastic Processes Topic](roadmap/mathematics/stochastic-processes/README.md)
 - **Software Engineering:** Best practices in coding, software design, and project management.
-    - **Algorithms and Data Structures** - [Link to Algorithms and Data Structures Topic](roadmap/software-engineering/algorithms/README.md)
-    - **C++ Programming** - [Link to C++ Programming Topic](roadmap/software-engineering/c++/README.md)
-    - **Concurrency** - [Link to Concurrency Topic](roadmap/software-engineering/concurrency/README.md)
-    - **Cuda Programming** - [Link to Cuda Topic](roadmap/software-engineering/cuda/README.md)
-    - **Design Patterns** - [Link to Software Design Patterns Topic](roadmap/software-engineering/design-patterns/README.md)
-    - **Network Programming** - [Link to Network Programming Topic](roadmap/software-engineering/network-programming/README.md)
-    - **Object-Oriented Programming** - [Link to Object-Oriented Programming Topic](roadmap/software-engineering/object-oriented-design/README.md)
-    - **Python Programming** - [Link to Python Programming Topic](roadmap/software-engineering/python/README.md)
+    - **Clean Code** - [Link to Clean Code Topic](roadmap/software-engineering/clean-code/README.md)
+    - **Design Patterns** - [Link to Design Patterns Topic](roadmap/software-engineering/design-patterns/README.md)
+    - **Documentation** - [Link to Documentation Topic](roadmap/software-engineering/documentation/README.md)
+    - **Legacy Code** - [Link to Legacy Code Topic](roadmap/software-engineering/legacy-code/README.md)
+    - **Project Management** - [Link to Project Management Topic](roadmap/software-engineering/project-management/README.md)
     - **Refactoring** - [Link to Refactoring Topic](roadmap/software-engineering/refactoring/README.md)
+    - **Requirements Engineering** - [Link to Requirements Engineering Topic](roadmap/software-engineering/requirements-engineering/README.md)
     - **Software Architecture** - [Link to Software Architecture Topic](roadmap/software-engineering/software-architecture/README.md)
-    - **Software Requirements** - [Link to Software Requirements Topic](roadmap/software-engineering/software-requirements/README.md)
     - **Software Testing** - [Link to Software Testing Topic](roadmap/software-engineering/software-testing/README.md)
+    - **System Design** - [Link to System Design Topic](roadmap/software-engineering/system-design/README.md)
+    - **Version Control** - [Link to Version Control Topic](roadmap/software-engineering/version-control/README.md)
     - **Web Development** - [Link to Web Development Topic](roadmap/software-engineering/web-development/README.md)
 
 ## Getting Started
@@ -203,10 +250,13 @@ cd algorithmic-trading-learning-roadmap
 ```
 
 ### Recommended Tools
-- Python: Primary language for algorithmic trading projects.
-- Jupyter Notebooks: For data science and machine learning experimentation.
-- Git: For version control and collaboration.
-- Cloud Services: Set up accounts on AWS, GCP, or Azure for cloud projects.
+- `Python`: Primary language for algorithmic trading projects.
+- `Jupyter Notebooks`: For data science and machine learning experimentation.
+- `Git`: For version control and collaboration.
+- `Cloud Services`: Set up accounts on AWS, GCP, or Azure for cloud projects.
+- `Anki`: For spaced repetition learning and flashcards.
+- `Obsidian`: For note-taking and organizing resources.
+- `Trello`: For project management and tracking progress.
 
 ## Contributing
 We welcome contributions to expand and improve the resources in this repository! To contribute:
