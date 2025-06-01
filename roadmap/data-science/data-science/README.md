@@ -121,8 +121,8 @@ By the end of this topic, learners will be able to:
 
 ## Next Steps
 After completing this topic, proceed to:
-1. [Statistics and Probability](../statistics-and-probability/README.md)
-2. [Machine Learning](../machine-learning/README.md)
+1. [Statistics and Probability](../../mathematics/probability-statistics/README.md)
+2. [Machine Learning](../../artificial-intelligence/machine-learning/README.md)
 
 ---
 
