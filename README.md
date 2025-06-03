@@ -100,6 +100,7 @@ The design of this repository is modular and hierarchical, allowing for easy nav
     ├── computer-science
     │   ├── compilers
     │   ├── computer-architecture
+    │   ├── cuda
     │   ├── data-structures
     │   ├── operating-systems
     │   ├── theory
@@ -209,6 +210,7 @@ Navigate through the following domains and focus areas to find resources and top
 - **Computer Science:** Fundamental concepts in algorithms, data structures, and programming languages.
     - **Compilers** - [Link to Compilers Topic](roadmap/computer-science/compilers/README.md)
     - **Computer Architecture** - [Link to Computer Architecture Topic](roadmap/computer-science/computer-architecture/README.md)
+    - **CUDA Programming** - [Link to CUDA Topic](roadmap/computer-science/cuda/README.md)
     - **Data Structures** - [Link to Data Structures Topic](roadmap/computer-science/data-structures/README.md)
     - **Operating Systems** - [Link to Operating Systems Topic](roadmap/computer-science/operating-systems/README.md)
     - **Theory of Computation** - [Link to Theory of Computation Topic](roadmap/computer-science/theory/README.md)

@@ -27,7 +27,7 @@ The topics below are organized in a suggested order of priority. Each can be stu
 | [Computer Architecture](./computer-architecture/) | From gates to CPUs — understand how computers execute code at the hardware level | 🟣 Optional |
 | [Operating Systems](./operating-systems/) | Process scheduling, memory, filesystems, and syscalls | 🟡 Recommended |
 | [Theory of Computation](./theory-of-computation/) | Automata, complexity theory, decidability, and formal languages | ⚪ Advanced |
-
+| [CUDA](./cuda/) | GPU programming for parallel processing and high-performance computing | ⚪ Advanced |
 ---
 
 ## Learning Priorities
@@ -49,7 +49,7 @@ The topics below are organized in a suggested order of priority. Each can be stu
 4. `data-structures/`
 5. `algorithms/`
 6. `c++/`
-7. Optional depth: concurrency → network programming → OS → architecture → compilers → theory
+7. Optional depth: `concurrency` → `network programming` → `OS` → `architecture` → `compilers` → `theory` → `assembly language` → `CUDA`
 
 ---
 
