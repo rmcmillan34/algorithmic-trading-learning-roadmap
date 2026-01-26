@@ -1,0 +1,36 @@
+flowchart LR
+  %% Core Algorithmic Trading Roadmap (Role-agnostic)
+
+  subgraph F[Foundations]
+    M[Math + Stats] --> CS[CS + SWE]
+    CS --> TL[Tooling: Linux · Git · Python]
+    Mk[Markets + Microstructure] --> RM[Risk Mindset]
+  end
+
+  subgraph D[Data + Research Workflow]
+    DI[Data Ingestion] --> DC[Data Cleaning]
+    DC --> FE[Feature Engineering]
+    FE --> TS[Time Series + Validation]
+    TS --> EM[Evaluation + Metrics]
+  end
+
+  subgraph S[Strategy + Backtesting]
+    HY[Hypothesis] --> BT[Backtesting]
+    BT --> BK[Bias/Leakage Checks]
+    BK --> RB[Robustness + Stress Tests]
+  end
+
+  subgraph E[Engineering + Deployment]
+    SD[System Design] --> QA[Testing + QA]
+    QA --> CI[CI/CD]
+    CI --> DEP[Deployment]
+    DEP --> MON[Monitoring + Observability]
+  end
+
+  subgraph X[Execution + Risk]
+    EX[Execution Simulation] --> SL[Slippage + Costs]
+    SL --> OMS[OMS/EMS Concepts]
+    OMS --> RL[Risk Limits + Controls]
+  end
+
+  F --> D --> S --> E --> X

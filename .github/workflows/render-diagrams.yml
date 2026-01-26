@@ -1,0 +1,46 @@
+name: Render Mermaid Diagrams
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "roadmap/**/*.mmd"
+      - "roadmap/**/*.mermaid"
+      - "scripts/render-diagrams.sh"
+      - ".github/workflows/render-diagrams.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Render diagrams
+        run: bash scripts/render-diagrams.sh
+
+      - name: Commit rendered artifacts (if changed)
+        run: |
+          set -e
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add assets/img/diagrams/personas/*.svg
+          git commit -m "chore(diagrams): render mermaid artifacts"
+          git push

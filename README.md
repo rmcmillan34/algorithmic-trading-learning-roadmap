@@ -276,6 +276,15 @@ Navigate through the following domains and focus areas to find resources and top
     - **Version Control** - [Link to Version Control Topic](roadmap/software-engineering/version-control/README.md)
     - **Web Development** - [Link to Web Development Topic](roadmap/software-engineering/web-development/README.md)
 
+## Role-Based Roadmaps (Personas)
+
+If you want a guided path depending on your target role, start here:
+
+- **Algorithmic Trader** → [roadmap/personas/algorithmic-trader/README.md](roadmap/personas/algorithmic-trader/README.md)
+- **Quantitative Developer** → [roadmap/personas/quantitative-developer/README.md](roadmap/personas/quantitative-developer/README.md)
+- **Quantitative Researcher** → [roadmap/personas/quantitative-researcher/README.md](roadmap/personas/quantitative-researcher/README.md)
+- **Quantitative Trader** → [roadmap/personas/quantitative-trader/README.md](roadmap/personas/quantitative-trader/README.md)
+
 ### Recommended Tools
 - `Python`: Primary language for algorithmic trading projects.
 - `Jupyter Notebooks`: For data science and machine learning experimentation.
