@@ -1,138 +1,174 @@
 # Calculus
 
-Calculus is a cornerstone of quantitative finance and algorithmic trading. It enables the modeling of dynamic systems, optimization of trading algorithms, and calculation of rates of change, such as price movement or portfolio value. From basic differentiation to advanced multivariable calculus, these concepts are essential for understanding and improving trading strategies.
+## Overview
+
+Calculus is the mathematical study of continuous change. It provides tools for modeling dynamic systems and understanding rates of change — key concepts in fields ranging from physics and engineering to machine learning and finance. In the context of algorithmic trading, calculus underpins everything from stochastic calculus in option pricing, to gradient descent in machine learning, to interpreting integrals of price movement over time.
+
+This topic covers both **single-variable** and **multivariable calculus**, as both are foundational for algorithmic trading systems.
+
+---
+
+## Status: 🟢 Mandatory
+
+| Who should learn this? |
+|------------------------|
+| ✅ Anyone pursuing mathematical foundations for trading, AI, or financial engineering |
+| ✅ Quantitative researchers and model builders |
+| ✅ Developers preparing for continuous optimisation or ML coursework |
+
+---
+
+## Prerequisites
+
+- High school algebra and functions
+- Understanding of limits and basic graphing
+- Comfort with symbolic manipulation and equations
+- Recommended: Trigonometry and mathematical notation fluency
 
 ---
 
 ## Learning Objectives
 
-By the end of this module, you will:
-- Understand the foundational principles of calculus, including differentiation and integration.
-- Apply calculus concepts to optimize trading strategies and portfolios.
-- Use advanced techniques like partial derivatives and differential equations to model financial systems.
+- Understand the concepts of limits, derivatives, and integrals
+- Compute derivatives of basic and composite functions
+- Interpret integrals as areas under curves and cumulative quantities
+- Apply the Fundamental Theorem of Calculus
+- Use calculus to model and analyse dynamic systems
+- Work with multivariable functions and compute partial derivatives
 
 ---
 
-## Syllabus Checklist
+## Key Concepts
 
-### Beginner
-- [ ] Basic differentiation:
-  - [ ] Power, product, quotient, and chain rules.
-  - [ ] Derivatives of polynomial and trigonometric functions.
-- [ ] Basic integration:
-  - [ ] Definite and indefinite integrals.
-  - [ ] Fundamental theorem of calculus.
-- [ ] Applications:
-  - [ ] Finding rates of change (e.g., price movement).
-  - [ ] Area under curves.
-
-### Intermediate
-- [ ] Multivariable calculus:
-  - [ ] Partial derivatives.
-  - [ ] Gradient and directional derivatives.
-  - [ ] Optimization of multivariable functions.
-- [ ] Applications in finance:
-  - [ ] Modeling price sensitivity with Greeks (e.g., delta, gamma).
-  - [ ] Calculating portfolio variance and covariance.
-
-### Advanced
-- [ ] Differential equations:
-  - [ ] Ordinary differential equations (ODEs).
-  - [ ] Applications in financial modeling (e.g., Black-Scholes).
-- [ ] Numerical methods:
-  - [ ] Approximation of integrals (e.g., trapezoidal rule, Simpson's rule).
-  - [ ] Solving differential equations programmatically.
-- [ ] Advanced optimization:
-  - [ ] Gradient descent and its variants.
-  - [ ] Lagrange multipliers for constrained optimization.
+- **Limits** – Approach and behaviour near a point  
+- **Derivatives** – Instantaneous rate of change and slope of functions  
+- **Integrals** – Accumulated area or quantity over an interval  
+- **Chain Rule & Product Rule** – Differentiating compositions and products  
+- **Fundamental Theorem of Calculus** – Links differentiation and integration  
+- **Optimization & Extrema** – Finding maxima and minima  
+- **Multivariable Calculus** – Partial derivatives, gradients, and Jacobians  
+- **Applications to Motion** – Velocity, acceleration, and displacement  
 
 ---
 
-## Suggested Resources
+## Applications in Algorithmic Trading
 
-### Books
-#### Beginner
-1. **"Calculus Made Easy" by Silvanus P. Thompson**  
-   A classic, beginner-friendly introduction to calculus.
-
-#### Intermediate
-2. **"Calculus: Early Transcendentals" by James Stewart**  
-   Comprehensive coverage of single and multivariable calculus.
-
-#### Advanced
-3. **"Mathematics for Finance: An Introduction to Financial Engineering" by Marek Capinski and Tomasz Zastawniak**  
-   Focuses on the application of calculus in financial contexts.
-
-### Courses
-#### Beginner
-1. [Khan Academy: Calculus](https://www.khanacademy.org/math/calculus-1)  
-   Covers the basics of differentiation and integration.
-
-#### Intermediate
-2. [Multivariable Calculus by MIT OpenCourseWare](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)  
-   Free course covering gradients, partial derivatives, and more.
-
-#### Advanced
-3. [Introduction to Mathematical Finance (Coursera)](https://www.coursera.org/)  
-   Includes calculus applications in pricing and portfolio management.
-
-### Articles and Tutorials
-1. [Calculus for Machine Learning](https://towardsdatascience.com/calculus-in-machine-learning-f1c36227c449)  
-   Overview of calculus applications in optimization.
-2. [The Role of Calculus in Quantitative Finance](https://quantinsti.com/blog/calculus-in-finance)  
-   Practical applications of calculus in trading.
+- **Price Velocity & Acceleration** – Derivatives applied to time series  
+- **Continuous-Time Models** – Foundations for Black-Scholes and Ito calculus  
+- **Gradient Descent** – Core to machine learning optimisation  
+- **Integral Transforms** – Tools for signal processing and smoothing  
+- **Risk Sensitivities (Greeks)** – Partial derivatives in options pricing models  
 
 ---
 
-## Online Certifications
+## 🧠 Study Materials
 
-**Note**: While there are no widely recognized certifications specifically for calculus, mastering calculus concepts is often a prerequisite for broader certifications in finance, machine learning, and data science. Consider exploring these related certifications:
-- [Google Data Analytics Certificate](https://grow.google/certificates/data-analytics/)
-- [Certified Financial Analyst (CFA) Program](https://www.cfainstitute.org/)
+### 📚 Books
 
----
+#### 📘 Beginner
 
-## Practical Applications in Algorithmic Trading
+| Title | Author(s) | Description | Link |
+|-------|-----------|-------------|------|
+| *Calculus Made Easy* | Silvanus P. Thompson | Classic, intuitive guide to calculus | [Archive](https://archive.org/details/CalculusMadeEasy1914) |
+| *Calculus I–III: Practice Problems* | Mehdi Rahmani-Andebili | Series of problem-driven books for single- and multivariable calculus | N/A |
+| *Calculus of One Variable* | M. Thamban Nair | Modern intro with clean layout and explanations | N/A |
 
-1. **Price Movement Analysis**:
-   - Use derivatives to calculate price velocity and acceleration.
-   - Identify trends and turning points in market data.
+#### 📗 Intermediate
 
-2. **Portfolio Optimization**:
-   - Apply multivariable calculus to find optimal asset allocations.
-   - Use Lagrange multipliers for constrained optimization.
+| Title | Author(s) | Description | Link |
+|-------|-----------|-------------|------|
+| *Calculus* | Michael Spivak | Proof-based introduction used in top honours programs | [Amazon](https://www.amazon.com/Calculus-4th-Michael-Spivak/dp/0914098918) |
+| *Calculus: Early Transcendentals* | James Stewart | Classic global undergraduate textbook | N/A |
+| *Elementary Analysis* | Kenneth A. Ross | Bridge from calculus to real analysis | N/A |
+| *Calculus off the Beaten Path* | Ignacio Zalduendo | Conceptual, story-based approach | N/A |
 
-3. **Financial Derivatives**:
-   - Use partial derivatives to compute Greeks (e.g., delta, gamma) for risk management.
+#### 📙 Advanced
 
-4. **Algorithm Optimization**:
-   - Implement gradient descent to tune trading strategy parameters.
-
----
-
-## Tools and Libraries
-- **Python Libraries**:
-  - `sympy`: For symbolic differentiation and integration.
-  - `scipy.integrate`: For numerical integration.
-  - `autograd`: For automatic differentiation.
-- **Software**:
-  - MATLAB: For advanced calculus computations.
-  - Jupyter Notebooks: For interactive experimentation.
+| Title | Author(s) | Description | Link |
+|-------|-----------|-------------|------|
+| *Advanced Calculus* | Loomis & Sternberg | Highly rigorous with theoretical depth | [Harvard](https://www.math.harvard.edu/media/loomissternberg.pdf) |
+| *Advanced Calculus for Economics and Finance* | Giulio Bottazzi | Applied multivariable methods in economics | N/A |
+| *Impossible Integrals, Sums, and Series* | Cornel I. Vălean | Creative and challenging advanced problems | N/A |
 
 ---
 
-## Getting Started
+### 🎓 Courses
 
-1. **Beginner**:
-   - Start with Khan Academy's basic calculus course.
-   - Work through differentiation and integration examples in "Calculus Made Easy".
-2. **Intermediate**:
-   - Study partial derivatives and gradients using Stewart's textbook.
-   - Complete the MIT OpenCourseWare multivariable calculus course.
-3. **Advanced**:
-   - Dive into financial applications with "Mathematics for Finance".
-   - Implement gradient descent and numerical integration with Python.
+#### 📘 Beginner
+
+| Course Title | Provider | Description |
+|--------------|----------|-------------|
+| *Single Variable Calculus (18.01SC)* | MIT OCW | Full undergraduate course with video lectures, notes, and P-sets |
+| *Become a Calculus 1 Master* | Udemy | Complete intro with explanations, examples, and quizzes |
+
+#### 📗 Intermediate
+
+| Course Title | Provider | Description |
+|--------------|----------|-------------|
+| *Multivariable Calculus (18.02SC)* | MIT OCW | MIT’s course on multivariable calculus and vector analysis |
+| *Introduction to Advanced Calculus* | Coursera | Bridge between basic and advanced concepts |
+
+#### 📙 Advanced
+
+| Course Title | Provider | Description |
+|--------------|----------|-------------|
+| *Multivariate Calculus for Machine Learning* | Coursera | Applied calculus for ML and optimisation (partial derivatives, gradients) |
 
 ---
 
-This module provides a pathway to understanding and applying calculus in algorithmic trading, from basic concepts to advanced financial applications.
+### 🏅 Certifications & Developer Programs
+
+_No widely accepted calculus-specific certifications exist._
+
+If pursuing this topic as preparation for ML or quantitative finance, completion of MIT OCW courses or university modules may serve as evidence of capability.
+
+---
+
+## 🛠️ Tools & Libraries
+
+- **SymPy** – Python symbolic math library  
+- **GeoGebra / Desmos** – Interactive visual tools  
+- **WolframAlpha / Mathematica** – Symbolic computation  
+- **SageMath** – Open-source algebra system for calculus and analysis  
+
+---
+
+## 🧪 Hands-On Projects
+
+- Graph a function and its first/second derivatives in Desmos or Python  
+- Write a SymPy script for symbolic differentiation and integration  
+- Apply first and second derivatives to financial time series  
+- Solve a maximum return / minimum risk optimisation using calculus  
+- Use partial derivatives to explore sensitivity in multi-asset models  
+
+---
+
+## ✅ Assessment
+
+- Can you differentiate and integrate common functions by hand and with tools?  
+- Can you explain how derivatives and integrals relate to time series or returns?  
+- Can you use calculus to model and solve an optimisation problem?  
+- Can you interpret a multivariable function and its gradient vector?
+
+---
+
+## ❓ FAQs
+
+**Q: Do I need both single-variable and multivariable calculus?**  
+A: Yes. Single-variable builds fundamentals; multivariable is essential for options, optimisation, and ML.
+
+**Q: What if I’m using libraries like TensorFlow or PyTorch?**  
+A: Calculus powers their core algorithms. You’ll debug better and tune models faster with calculus fluency.
+
+**Q: Can I rely on symbolic calculators?**  
+A: Use them as tools — but understanding concepts is essential for application and troubleshooting.
+
+---
+
+## 🔗 Next Steps
+
+- [Linear Algebra](../linear-algebra/)  
+- [Probability & Statistics](../probability-statistics/)  
+- [Optimization](../optimization/)  
+- [Numerical Methods](../numerical-methods/)
+
