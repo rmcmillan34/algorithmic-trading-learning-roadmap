@@ -1,69 +1,74 @@
+
 # Computer Architecture
 
 ## Overview
 
-Computer Architecture is the study of how computers are structured and how their components interact — from logic gates and ALUs to instruction sets, memory hierarchies, and pipelines. Understanding architecture builds your mental model for performance, memory, and instruction-level execution, which can be crucial when optimizing code or building low-level systems.
+Computer Architecture is the study of how computers are structured and how hardware components execute software — from logic gates and ALUs to instruction sets, memory hierarchies, pipelines, and multicore processors. It explains *why* some programs are fast, others slow, and how performance, latency, throughput, and determinism emerge from hardware design choices.
 
-While this topic is **optional** for most algorithmic trading workflows, it's **foundational for systems engineering** and **hugely helpful** for those working with C/C++, performance tuning, embedded systems, or building low-level libraries.
+For algorithmic trading, computer architecture is **not universally required**, but it is **foundational for systems engineering** and **highly leveraged** in performance-critical environments. A solid architectural mental model helps practitioners reason about latency, optimise hot paths, design cache-friendly data structures, and understand the real limits of software running on modern CPUs.
 
 ---
 
-## Status: 🟣 Optional / Systems-Oriented
+## Status: 🟣 Optional / Systems-Oriented (Role-Dependent)
 
 | Who should learn this? |
-|-------------------------|
-| ✅ Developers working close to the metal (C, Rust, assembly) |
-| ✅ Anyone optimizing performance in latency-sensitive systems |
-| ⚠️ Optional for scripting, analytics, or Python-based trading |
+|------------------------|
+| ✅ **Quant Developers** – Especially those working on execution engines, backtesting infrastructure, or low-latency systems |
+| ✅ **Algorithmic Traders** – Useful for understanding performance limits and tuning strategies at scale |
+| ⚠️ **Quant Researchers** – Beneficial but not mandatory unless simulations or models are compute-bound |
+| ⚠️ **Quant Traders (Discretionary)** – Optional unless working close to hardware or latency-sensitive tools |
+
+> **Note:** Depth of study varies by role. Most learners should aim for *conceptual fluency*, not hardware design mastery.
 
 ---
 
 ## Learning Objectives
 
-- Understand the hierarchy from transistors to modern CPUs
-- Learn how memory, registers, and caches interact
+- Understand the hierarchy from transistors and logic gates to modern CPUs
+- Learn how registers, caches, and memory hierarchies interact
 - Study machine instructions, CPU cycles, pipelining, and instruction-level parallelism
-- Gain insights into performance tuning (e.g., cache hits, branching, vectorization)
-- Build basic logic gates, adders, and CPU components conceptually or in HDL
+- Reason about real-world performance (cache misses, branching, vectorisation)
+- Build or simulate basic logic gates, ALUs, and CPU components conceptually or in HDL
 
 ---
 
 ## Key Concepts
 
-- **Logic Gates & Circuits** – NAND, NOR, flip-flops, multiplexers
-- **Arithmetic Logic Units (ALUs)** – Binary operations, adders, overflow
-- **Instruction Sets (ISAs)** – x86, ARM, RISC-V
-- **Memory Hierarchy** – Registers, cache, RAM, virtual memory
-- **CPU Architecture** – Control units, pipelining, fetch-decode-execute
-- **Performance Optimization** – Instruction cycles, branch prediction, SIMD
-- **I/O & Buses** – How peripherals communicate with the processor
-- **Parallel & Multi-core Systems** – Threads, cache coherence, NUMA
+- **Logic Gates & Circuits** – NAND, NOR, flip-flops, multiplexers  
+- **Arithmetic Logic Units (ALUs)** – Binary arithmetic, adders, overflow  
+- **Instruction Set Architectures (ISAs)** – x86, ARM, RISC-V  
+- **Memory Hierarchy** – Registers, cache, RAM, virtual memory  
+- **CPU Microarchitecture** – Fetch-decode-execute, pipelines, superscalar execution  
+- **Performance Optimisation** – Branch prediction, SIMD, cache locality  
+- **I/O & Buses** – How peripherals and memory communicate with the CPU  
+- **Parallel & Multicore Systems** – Threads, cache coherence, NUMA  
 
 ---
 
-## Study Materials
+## 🧠 Study Materials
 
-### Books
+### 📚 Books
 
 | Title | Author(s) | Description |
-|-------|-----------|-------------|
-| *The Elements of Computing Systems (Nand2Tetris)* | Noam Nisan, Shimon Schocken | Build a complete computer system from the ground up — from gates to compilers. Hands-on and educational. |
-| *Computer Organization and Design: The Hardware/Software Interface* | David A. Patterson, John L. Hennessy | The most widely used architecture textbook. Clear, modern, and highly relevant. |
-| *Structured Computer Organization* | Andrew S. Tanenbaum | A conceptual intro to architecture with historical perspective. |
-| *Computer Architecture: A Quantitative Approach* | John L. Hennessy, David A. Patterson | Deep, graduate-level performance and architectural analysis. |
-| *Digital Design and Computer Architecture* | David Harris, Sarah Harris | Great practical book with HDL examples (Verilog/VHDL). |
+|------|-----------|-------------|
+| *The Elements of Computing Systems (Nand2Tetris)* | Noam Nisan, Shimon Schocken | Build a complete computer system from NAND gates up — hardware, ISA, OS, and compiler. Extremely hands-on and intuition-building. |
+| *Computer Organization and Design: The Hardware/Software Interface* | David A. Patterson, John L. Hennessy | The standard undergraduate architecture text. Clear, modern, and highly relevant to real systems. |
+| *Structured Computer Organization* | Andrew S. Tanenbaum | Conceptual, bottom-up introduction with historical context. |
+| *Computer Architecture: A Quantitative Approach* | John L. Hennessy, David A. Patterson | Definitive graduate-level text focused on performance and design trade-offs. |
+| *Digital Design and Computer Architecture* | David Harris, Sarah Harris | Practical logic + architecture book with HDL examples (Verilog/VHDL). |
 
 ---
 
-### Online Courses
+### 🎓 Online Courses
 
-| Course | Provider | Link |
-|--------|----------|------|
-| *Nand2Tetris (Parts I & II)* | Coursera / Hebrew University | [Nand2Tetris](https://www.nand2tetris.org/) |
-| *CS61C: Great Ideas in Computer Architecture* | UC Berkeley | [YouTube Archive](https://inst.eecs.berkeley.edu/~cs61c/fa20/) |
-| *Digital Systems* | MIT OCW | [MIT OCW](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/) |
-| *Computer Architecture* | Princeton (COS 375) | [Course page](https://www.cs.princeton.edu/courses/archive/fall20/cos375/) |
-| *Harvard CS50 Computer Architecture (Week 5)* | Harvard | Part of CS50 — intro to machine code and memory | [CS50 Week 5](https://cs50.harvard.edu/x/2023/weeks/5/)
+| Course | Provider | Description |
+|------|----------|-------------|
+| *Nand2Tetris (Parts I & II)* | Hebrew University / Coursera | Build a full computer stack from first principles. |
+| *CS61C: Great Ideas in Computer Architecture* | UC Berkeley | Excellent undergraduate course with strong systems focus. |
+| *Computation Structures (6.004)* | MIT OpenCourseWare | Logic → CPU → architectural reasoning. |
+| *Computer System Architecture (6.823)* | MIT OpenCourseWare | Upper-level architecture: pipelining, memory, multiprocessors. |
+| *Computer Architecture (COS 375)* | Princeton | Advanced undergraduate / early graduate performance-oriented course. |
+| *CS50 – Machine Code & Memory* | Harvard | Introductory exposure via CS50 Week 5. |
 
 ---
 
@@ -71,37 +76,39 @@ While this topic is **optional** for most algorithmic trading workflows, it's **
 
 | Concept | Relevance |
 |--------|-----------|
-| **Cache locality** | Optimize data layout and memory access in performance-critical trading loops |
-| **Vectorization & SIMD** | Speed up signal processing, math-heavy backtests |
-| **Instruction pipelines** | Understand CPU bottlenecks for latency-sensitive tasks |
-| **Thread/core awareness** | Pin processes to cores, reduce contention in multi-threaded systems |
-| **Embedded systems** | Design HFT systems or FPGA-side preprocessing with precise control
+| **Cache locality** | Optimise data layout and memory access in hot trading loops |
+| **Vectorisation & SIMD** | Accelerate signal processing and math-heavy backtests |
+| **Instruction pipelines** | Understand latency bottlenecks in execution paths |
+| **Thread/core awareness** | Pin processes, reduce contention, improve determinism |
+| **Low-level systems** | Design latency-aware engines or hardware-adjacent tooling |
 
 ---
 
-## Hands-On Projects
+## 🧪 Hands-On Projects
 
-- Complete the Nand2Tetris hardware and software build
+- Complete at least Part I of **Nand2Tetris**
 - Simulate logic circuits using Logisim or HDL
-- Profile CPU-bound Python or C++ code and improve cache usage
-- Explore assembly output using `objdump` or `Godbolt Compiler Explorer`
-- Write code that measures cache performance and branching behavior
+- Profile CPU-bound C++ or Python code and improve cache behaviour
+- Inspect assembly output using Compiler Explorer (Godbolt)
+- Write microbenchmarks to measure cache misses and branch prediction
 
 ---
 
-## Assessment
+## ✅ Assessment
 
-- Complete at least Part I of Nand2Tetris
-- Implement a CPU or memory model using HDL or simulation
-- Use tools like `perf`, `valgrind`, `cachegrind` or `objdump` to analyze performance
-- Write a small report on architecture tradeoffs for high-performance trading
+- Can you explain why two algorithms with the same Big-O behave differently in practice?
+- Can you identify cache misses or pipeline stalls in profiled code?
+- Can you reason about performance trade-offs on modern CPUs?
+- Can you connect architectural constraints to trading-system design decisions?
 
 ---
 
-## Next Steps
+## 🔗 Next Steps
 
-After studying architecture, learners can go deeper into:
+After studying computer architecture, learners should move on to:
 
-- **Operating Systems** – Understand how software manages CPU/memory
-- **Compilers** – See how code is turned into instructions
-- **Embedded & Real-Time Systems** – Build ultra-low-latency software
+- **Operating Systems** – Scheduling, memory management, concurrency
+- **Performance Engineering** – Profiling, benchmarking, optimisation
+- **Compilers** – How high-level code becomes machine instructions
+- **Low-Latency Systems** – Applying architecture to trading infrastructure
+
