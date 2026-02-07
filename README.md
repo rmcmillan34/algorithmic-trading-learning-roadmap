@@ -6,7 +6,6 @@
 ![Last Commit](https://img.shields.io/github/last-commit/rmcmillan34/algorithmic-trading-learning-roadmap)
 ![Issues](https://img.shields.io/github/issues/rmcmillan34/algorithmic-trading-learning-roadmap)
 ![Stars](https://img.shields.io/github/stars/rmcmillan34/algorithmic-trading-learning-roadmap?style=social)
-![Downloads](https://img.shields.io/badge/resources-downloads-blue?style=flat-square)
 ![GitHub contributors](https://img.shields.io/github/contributors/rmcmillan34/algorithmic-trading-learning-roadmap)
 
 Welcome to the Algorithmic Trading Learning Roadmap repository! This repository provides a structured, comprehensive roadmap for developing expertise in the core skills needed to become a proficient algorithmic trader. It includes resources, certifications, and project ideas across various fields that intersect in the world of algorithmic trading, such as AI, data science, finance, software engineering, cloud computing, and more.
