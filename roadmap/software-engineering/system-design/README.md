@@ -76,7 +76,7 @@ System design is a critical skill for software engineers, especially when buildi
 
 | Course Title | Provider | Level | Description |
 |--------------|----------|--------|-------------|
-| [Designing Large Scale Systems](https://www.educative.io/courses/grokking-the-system-design-interview) | Educative (Paid) | Advanced | Widely regarded system design course for FAANG-style interviews; strong in trade-offs and diagramming. |
+| [Designing Large Scale Systems](https://www.designgurus.io/course/grokking-the-system-design-interview) | Design Gurus (Paid) | Advanced | Widely regarded system design course for FAANG-style interviews; strong in trade-offs and diagramming. |
 | [Distributed Systems Lectures](https://www.youtube.com/playlist?list=PLkcQbKbegkMqiWf0qg4ZDU-QtB_Z1Mry5) | Martin Kleppmann (YouTube) | Advanced | Companion lectures to *Designing Data-Intensive Applications*, covering consensus, replication, logs, and more. |
 
 ---
